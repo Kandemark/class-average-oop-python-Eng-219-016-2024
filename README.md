@@ -10,19 +10,12 @@ Two classes are implemented:
 - `ClassAverage` – manages a list of students and computes the overall class average
 
 ## Flowchart
-```mermaid
-flowchart TD
-    A([Start]) --> B[Create Student class\\nwith name & grades attributes]
-    B --> C[Create ClassAverage class\\nInitialize empty students list]
-    C --> D[/Input number of students n/]
-    D --> E{More students\\nto enter?}
-    E -- Yes --> F[/Input student name & grades/]
-    F --> G[Create Student object\\nAdd to students list]
-    G --> E
-    E -- No --> H[Call calculate_average\\nSum all grades divided by count]
-    H --> I[/Display each student average\\nand class average/]
-    I --> J([End])
-```e
+The program follows this logic:
+1. Create Student and ClassAverage classes
+2. Input number of students
+3. For each student, input name and grades
+4. Calculate each student's average
+5. Calculate and display the class average
 
 ## Sample Output
 ```
