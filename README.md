@@ -40,5 +40,5 @@ Class Average: 77.44
 - OOP principles: Encapsulation, Classes, Objects, Methods
 
 ## Author
-Your Name  
+mark mbugu  
 BSc Electrical and Telecommunication Engineering
